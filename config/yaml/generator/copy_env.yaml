@@ -1,0 +1,29 @@
+# Plik konfiguracyjny dla środowiska.
+# Wszystkie ścieżki liczone od projectPath
+# dbHost: nazwa hosta
+# dbUser: user
+# dbPass: password
+# dbName: nazwa bazy danych
+# projectPath: ścieżka do folderu projektu
+# tableConfigPath: ścieżka do konfiguracji tabel w bazie danych
+# classConfigPath: ścieżka do konfiguracji klas
+# model:
+#   namespace: przestrzeń nazw
+#   output: folder docelowy
+# repo:
+#   namespace: przestrzeń nazw
+#   output: folder docelowy
+
+dbHost: "localhost"
+dbUser: "root"
+dbPass: "sznurek"
+dbName: "targowisko"
+projectPath: "D:/www/targowisko_admin_online"
+tableConfigPath: "config/yaml/generator/tables"
+classConfigPath: "config/yaml/generator/classes"
+model:
+  namespace: "pietras\\Model"
+  output: "src/models"
+repo:
+  namespace: "pietras\\Repository"
+  output: "src/repositories"

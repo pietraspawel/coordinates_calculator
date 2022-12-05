@@ -1,0 +1,16 @@
+{
+    "autoload": {
+        "psr-4": {
+            "pietras\\": "src/",
+            "pietras\\Controller\\": "src/controller/",
+            "pietras\\Model\\": "src/model/",
+            "pietras\\Repository\\": "src/repository/"
+        }
+    },
+    "require": {
+        "twig/twig": "^3.0",
+        "symfony/yaml": "^5.4",
+        "pietras/basic": "1.6.0",
+        "pietras/generator": "1.5.0"
+    }
+}

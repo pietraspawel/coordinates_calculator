@@ -1,0 +1,18 @@
+# MODE: tryb pracy dev|prod
+# JS_VERSION: wersje javy script
+# JS_CSS: wersje stylów
+# templates_path: ścieżka dla folderu szablonów Twiga
+# translation_path: ścieżka dla folderów z zawartością tekstową
+# passwordPepper: pieprz dla hasła
+# baseUrl: url bazowy
+# routes_path: ścieżka do pliku konfiguracyjnego z routami
+# cache_path: ścieżka dla forlderu cache Twiga, false żeby wyłączyć cacheowanie
+MODE: "dev"
+JS_VERSION: "221201"
+CSS_VERSION: "221201"
+templates_path: "template"
+translation_path: "translation/pl"
+passwordPepper: "wygeneruj_jakis"
+base_url: "http://localhost/folder"
+routes_path: "config/routes.yaml"
+cache_path: false

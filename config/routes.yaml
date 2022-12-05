@@ -1,0 +1,5 @@
+# Opisuje zależność kontroler - param1
+login: 
+  - login
+logout: 
+  - logout
