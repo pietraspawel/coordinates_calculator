@@ -16,9 +16,6 @@
     </head>
     <body>
         <div class="container text-center">
-        {% block menu %}
-            {{ include("mainMenu.html.twig") }}
-        {% endblock %}
         {% block errors_and_notices %}
             <div>
                 {% for error in errors %}<div class='error_container'><div class='error'>{{ error }}</div></div>{% endfor %}

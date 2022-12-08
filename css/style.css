@@ -1,0 +1,9 @@
+span.clipboard {
+  cursor: pointer;
+}
+
+span.clipboard:hover {
+  color: blue;
+}
+
+/*# sourceMappingURL=style.css.map */

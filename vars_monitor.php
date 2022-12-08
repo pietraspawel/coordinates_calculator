@@ -5,9 +5,6 @@
  */
 
 namespace pietras;
-
-$database = $application->getDatabase()->setDebug(true);
-
 ?>
 
 <div>

@@ -1,8 +1,0 @@
-<div>
-    <a href="{{ urlBase }}" ?>{{ basetext.menu.home }}</a> | 
-    {% if user is null %}
-    <a href="{{ urlBase }}/login" ?>{{ basetext.menu.login }}</a>
-    {% else %}
-    <a href="{{ urlBase }}/logout" ?>{{ basetext.menu.logout }}</a>
-    {% endif %}
-</div>

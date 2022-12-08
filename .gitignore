@@ -1,5 +1,7 @@
+node_modules/
 vendor/
 
 *.bat
+*.cache
 *.sublime-project
 *.sublime-workspace
