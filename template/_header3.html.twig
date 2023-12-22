@@ -1,0 +1,37 @@
+<h2 id="szczeg-owe-zasady-zapisu">Szczegółowe zasady zapisu</h2>
+<p>Wartości mogą być zapisane jako <strong>liczby całkowite</strong> a najmniejsza jednostka może być zapisana jako <strong>ułamek dziesiętny</strong>.</p>
+<p>Dla wartości zapisanych w postaci <strong>ułamka dziesiętnego</strong> separatorem jest <strong>kropka</strong>.<br>Przykład: <code>1.234</code></p>
+<p><strong>Przecinek</strong> oddziela <strong>szerokość geograficzną</strong> od <strong>długości geograficznej</strong>, przy czym jest opcjonalny (można te wartości oddzielić po prostu spacją).<br>Najpierw musi być podana <strong>szerokość geograficzna</strong>, a następnie <strong>długość</strong>.<br>Muszą być podane obydwie wartości: <strong>szerokość</strong> i <strong>długość</strong>.<br><strong>Szerokość geograficzna</strong> może być poprzedzona symbolem <strong>φ</strong>, ale nie jest to konieczne.<br><strong>Długość geograficzna</strong> może być poprzedzona symbolem <strong>λ</strong>, ale nie jest to konieczne.<br>Przykłady:  </p>
+<pre><code>φ <span class="hljs-number">50</span> <span class="hljs-number">46</span> <span class="hljs-number">17.076</span> N, λ <span class="hljs-number">16</span> <span class="hljs-number">17</span> <span class="hljs-number">3.552</span> E
+<span class="hljs-number">50</span> <span class="hljs-number">46</span> <span class="hljs-number">17.076</span> N, <span class="hljs-number">16</span> <span class="hljs-number">17</span> <span class="hljs-number">3.552</span> E
+<span class="hljs-number">50</span> <span class="hljs-number">46</span> <span class="hljs-number">17.076</span> N,<span class="hljs-number">16</span> <span class="hljs-number">17</span> <span class="hljs-number">3.552</span> E
+<span class="hljs-number">50</span> <span class="hljs-number">46</span> <span class="hljs-number">17.076</span> N <span class="hljs-number">16</span> <span class="hljs-number">17</span> <span class="hljs-number">3.552</span> E
+</code></pre><p>Każda wartość składa się ze <strong>stopni</strong>, <strong>minut</strong> i <strong>sekund</strong> oraz <strong>określenia półkuli</strong>, przy czym <strong>stopnie</strong> i <strong>określenie półkuli</strong> jest obowiązkowe, <strong>minuty</strong> i <strong>sekundy</strong> są opcjonalne.<br>Wartości muszą być podane w tej kolejności: <strong>stopnie</strong> <strong>minuty</strong> <strong>sekundy</strong>.
+Separatorem wartości jest <strong>spacja</strong>.
+Przykłady:  </p>
+<pre><code><span class="hljs-symbol">50 </span><span class="hljs-number">46</span> <span class="hljs-number">17.076</span> N
+<span class="hljs-symbol">16 </span><span class="hljs-number">17</span> <span class="hljs-number">3.552</span> E
+</code></pre><p><strong>Stopnie</strong> mogą być podane jako liczba całkowita lub ułamek dziesiętny (tylko dla zapisu <strong>DD</strong>).<br>Można dodać znak stopni (°), lecz jest on opcjonalny.
+Przykłady:  </p>
+<pre><code><span class="hljs-number">50</span>
+<span class="hljs-number">50</span>°
+</code></pre><p><strong>Minuty</strong> mogą być podane jako liczba całkowita lub ułamek dziesiętny (tylko dla zapisu <strong>DM</strong>).
+Można dodać znak minut, lecz jest on opcjonalny.
+Oficjalnym znakiem minuty jest prim (′), ale równie dobrze może być apostrof (&#39;). Znak podany po wartości jest nieistotny dla aplikacji.
+Przykłady:  </p>
+<pre><code><span class="hljs-number">46</span>
+<span class="hljs-number">46</span>′
+<span class="hljs-number">46</span>'
+</code></pre><p><strong>Sekundy</strong> mogą być podane jako liczba całkowita lub ułamek dziesiętny (tylko dla zapisu <strong>DMS</strong>).
+Można dodać znak sekund, lecz jest on opcjonalny.
+Oficjalnym znakiem sekundy jest bis (″), ale równie dobrze może być cudzysłów (&quot;). Znak podany po wartości jest nieistotny dla aplikacji.
+Przykłady:  </p>
+<pre><code>3<span class="hljs-selector-class">.552</span>″
+3<span class="hljs-selector-class">.552</span>"
+3<span class="hljs-selector-class">.552</span>
+</code></pre><p><strong>Określenie półkuli</strong> to jedna z liter <strong>N</strong>, <strong>S</strong> (dla <strong>szerokości geograficznej</strong>) lub <strong>E</strong>, <strong>W</strong> (dla <strong>długości geograficznej</strong>), przy zapisie <strong>DM</strong> i <strong>DMS</strong>.<br>Przy zapisie <strong>DD</strong> określamy półkulę poprzedzając <strong>stopnie</strong> znakiem <strong>+</strong> lub <strong>-</strong>, gdzie <strong>+</strong> oznacza <strong>szerokość północną</strong> lub <strong>długość wschodnią</strong>, a <strong>-</strong> oznacza <strong>szerokość południową</strong> lub <strong>długość zachodnią</strong>.
+Przykłady:  </p>
+<pre><code><span class="hljs-number">50</span> <span class="hljs-number">46</span> <span class="hljs-number">17.076</span> S <span class="hljs-number">16</span> <span class="hljs-number">17</span> <span class="hljs-number">3.552</span> W
+<span class="hljs-number">50</span> <span class="hljs-number">46.2846</span> S <span class="hljs-number">16</span> <span class="hljs-number">17.0592</span> W
+<span class="hljs-number">-50.77141</span> <span class="hljs-number">-16.28432</span>
+</code></pre>
