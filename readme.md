@@ -10,8 +10,9 @@ Przelicza współrzędne geograficzne pomiędzy różnymi formatami zapisu. Są 
 
 ### DMS (stopnie, minuty, sekundy)
 
-Stopnie i minuty jako liczby całkowite.  
-Sekundy jako liczby ułamkowe dziesiętne.
+**Stopnie** i **minuty** jako liczby całkowite.  
+**Sekundy** jako liczby ułamkowe dziesiętne.  
+**Półkule** określone poprzez litery **N** lub **S** (dla **szerokości geograficznej**) i **E** lub **W** (dla **długości geograficznej**).
 
 Przykłady:  
 ```
@@ -21,8 +22,9 @@ Przykłady:
 
 ### DM (stopnie, minuty)
 
-Stopnie jako liczby całkowite.  
-Minuty jako liczby ułamkowe dziesiętne.
+**Stopnie** jako liczby całkowite.  
+**Minuty** jako liczby ułamkowe dziesiętne.  
+**Półkule** określone poprzez litery **N** lub **S** (dla **szerokości geograficznej**) i **E** lub **W** (dla **długości geograficznej**).
 
 Przykłady:  
 ```
@@ -32,12 +34,13 @@ Przykłady:
 
 ### DD (stopnie)
 
-Stopnie jako liczby ułamkowe dziesiętne.
+**Stopnie** jako liczby ułamkowe dziesiętne.  
+**Półkule** określone poprzez znaki **+** dla **szerokości geograficznej północnej** i **długości geograficznej wschodniej** i **-** dla **szerokości geograficznej południowej** i **długości geograficznej zachodniej**. Znak **+** można pominąć.
 
 Przykłady:  
 ```
-50.77141°, 16.28432°
-50.77141 16.28432
++50.77141°, -16.28432°
+50.77141 -16.28432
 ```
 
 ## Szczegółowe zasady zapisu
