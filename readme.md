@@ -64,7 +64,7 @@ Przykłady:
 ```
 
 Każda wartość składa się ze **stopni**, **minut** i **sekund** oraz **określenia półkuli**, przy czym **stopnie** i **określenie półkuli** jest obowiązkowe, **minuty** i **sekundy** są opcjonalne.  
-Wartości muszą być podane w tej kolejności: **stopnie** **minuty** **sekundy** **określenie półkuli**.
+Wartości muszą być podane w tej kolejności: **stopnie** **minuty** **sekundy**.
 Separatorem wartości jest **spacja**.
 Przykłady:  
 ```
@@ -100,5 +100,11 @@ Przykłady:
 3.552
 ```
 
-**Określenie półkuli** to jedna z liter **N**, **S** (dla **szerokości geograficznej**) lub **E**, **W** (dla **długości geograficznej**).
-Zapis **+** i **-** NIE jest wspierany.
+**Określenie półkuli** to jedna z liter **N**, **S** (dla **szerokości geograficznej**) lub **E**, **W** (dla **długości geograficznej**), przy zapisie **DM** i **DMS**.  
+Przy zapisie **DD** określamy półkulę poprzedzając **stopnie** znakiem **+** lub **-**, gdzie **+** oznacza **szerokość północną** lub **długość wschodnią**, a **-** oznacza **szerokość południową** lub **długość zachodnią**.
+Przykłady:  
+```
+50 46 17.076 S 16 17 3.552 W
+50 46.2846 S 16 17.0592 W
+-50.77141 -16.28432
+```
